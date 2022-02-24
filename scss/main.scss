@@ -6,13 +6,12 @@ body{
     margin: 0px;
     background-color: #080E0C;
     header{
+        background-size: cover;
+        position: relative;
+        background-image: url(../img/351974.jpg);
         .nav{
-            position: relative;
             padding: 10px 10px;
             height: 30vh;
-            background-size: cover;
-            background-image: url(../img/351974.jpg);
-            // background-size: contain;
             display: flex;  
             align-items: flex-start;
             justify-content: space-between;
