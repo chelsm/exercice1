@@ -3,5 +3,40 @@
 @import "./_placeholders";
 
 body{
-    background-color: red;
+    margin: 0px;
+    background-color: #080E0C;
+    header{
+        .nav{
+            position: relative;
+            padding: 10px 10px;
+            height: 30vh;
+            background-size: cover;
+            background-image: url(../img/351974.jpg);
+            // background-size: contain;
+            display: flex;  
+            align-items: flex-start;
+            justify-content: space-between;
+            &__item{
+                display: flex;
+                gap: 10px;
+                &--icon{
+                    height : 15px; 
+                    width: 15px;
+                }
+            }
+            &__logo{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                & img{
+                    opacity:0.4;
+                    height: 130px;
+                    width: 130px;
+                }
+            }
+        }
+    }
 }
+
